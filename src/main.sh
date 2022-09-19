@@ -174,6 +174,10 @@ function main {
       installTerragrunt
       terragruntFmt ${*}
       ;;
+    hclfmt)
+      installTerragrunt
+      terragruntHclFmt ${*}
+      ;;
     init)
       installTerragrunt
       terragruntInit ${*}
