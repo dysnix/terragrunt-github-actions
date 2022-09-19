@@ -155,6 +155,7 @@ function main {
   # Source the other files to gain access to their functions
   scriptDir=$(dirname ${0})
   source ${scriptDir}/terragrunt_fmt.sh
+  source ${scriptDir}/terragrunt_hclfmt.sh
   source ${scriptDir}/terragrunt_init.sh
   source ${scriptDir}/terragrunt_validate.sh
   source ${scriptDir}/terragrunt_plan.sh
